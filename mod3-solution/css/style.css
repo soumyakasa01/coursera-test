@@ -44,6 +44,10 @@ body {
   clear: both;
   margin-top: -30px;
 }
+#main-content {
+  width: 100%;
+  margin:0px;
+}
 h1{
   color:black;
   margin-bottom: 40px;
@@ -58,7 +62,11 @@ h3 {
 .col-md-12, .col-sm-12, .col-xs-12 {
   border: 1px solid brown;
   background-color: black;
-  margin-right:50px;
+  margin: 0px;
+}
+.container {
+  margin:0;
+  width:100%;
 }
 @media (min-width: 1200px) {
   .navbar-brand h1{
@@ -79,9 +87,9 @@ h3 {
   #collapsable-nav a {
     font-size: 1.2em;
   }
-  .col-xs-12 {
+  /*.col-xs-12 {
     width:85%;
     margin-left:40px;
     margin-right:20px;
-  }
+  }*/
 }
